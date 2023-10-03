@@ -1,0 +1,155 @@
+@import url(./reset.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,400;1,500;1,600;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+    min-height: 100%;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Great Vibes', cursive;
+    
+
+}
+.container{
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+a{
+    text-decoration: none;
+    transition: all 0.4s ease;
+}
+
+img{
+    max-width: 100%;
+}
+#blog{
+    background-color: #fafafa;
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    
+}
+
+.blogTop{
+    position: relative;  
+}
+
+.blogCards{
+    font-family: 'Poppins', sans-serif !important; 
+}
+
+.blogTop span{
+    position: absolute;
+    top: 70px;
+    left: 50%;           
+    transform: translateX(-50%);
+    font-weight: normal;
+    font-size: 100px;
+    color: rgba(0, 0, 0, 0.2);
+    color: #c8a97e;
+    line-height: 1;
+    font-family: "Great Vibes", cursive;
+}
+
+.blogTop h2{
+    position: absolute;
+    top: 120px;
+    left: 48%;           
+    transform: translateX(-48%);
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 1.2;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    z-index: 1;
+}
+.card-img img{
+    width: 380px;
+    height: 300px;
+    object-fit: cover;
+
+}
+.card{
+    min-width: 350px;
+    max-width: 100%;
+    height: 500px;
+    background: rgb(255, 255, 255);
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.row{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 300px;
+    flex-wrap: wrap
+}
+
+.card-content{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.card-content p{
+    color: rgb(204, 204, 204);
+    font-size: 15px;
+    font-weight: 500;
+    padding: 25px 0;
+}
+
+.link a{
+    color: #000;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 16px 0;
+}
+
+.link a:hover{
+    color: aquamarine;
+}
+
+.readMore{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 25px;
+}
+
+.buttonReadMore a{
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+}
+
+.commit-icon{
+    color: rgba(0, 0, 0, 0.3);
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.card .card-img {
+    overflow: hidden;
+}
+
+.card .card-img img {
+    transition: all 0.4s ease;
+}
+
+.card:hover .card-img img {
+    transform: scale(1.1);
+}
+
+
+
